@@ -1,26 +1,25 @@
-import React from 'react';
-import './App.scss';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import Books from './components/Books';
-import Categories from './components/Categories';
-import Navigation from './components/Navigation';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/navbar';
+import Books from './pages/Books';
+import Categories from './pages/Categories';
 
-const App = () => (
-  <section>
-    <Router>
-      <Navigation />
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Books />} />
-          <Route path="/categories" element={<Categories />} />
-        </Routes>
-      </div>
-    </Router>
-  </section>
-);
+function App() {
+  const books = [
+    { title: 'The Catcher in the Rye', author: 'J.D. Salinger' },
+    { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+    { title: '1984', author: 'George Orwell' },
+  ];
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Books books={books} />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
+    </>
+  );
+}
 
 export default App;
