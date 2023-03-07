@@ -1,36 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+<h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -60,38 +30,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [BookStore] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+**[Bookstore]** is a website about understanding the concept of state management, store, actions, and reducers in React.
 
 <!-- Features -->
 
@@ -99,9 +42,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[REDUX]**
+- **[REACT COMPONENTS]**
+- **[REACT ROUTES]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +62,37 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+### Usage <a name="Usage"></a>
 
-To get a local copy up and running, follow these steps.
+- Clone the repository
 
-### Prerequisites
+  - Above the list of files, click **↓Code**
+  - Clone with HTTPS
+  - Open Terminal
+  - Change the current working directory to the location where you want the cloned directory
+  - Type `git clone`, and then paste the URL you copied earlier
+  - Press Enter. Your local clone will be created
 
-In order to run this project you need:
+In the project directory, you can run:
 
-<!--
-Example command:
+### `npm start`
 
-```sh
- gem install rails
-```
- -->
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Setup
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Clone this repository to your desired folder:
+### `npm run build`
 
-<!--
-Example commands:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Install
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +102,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **MARK RUBANZA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Banzaman](https://github.com/banzaman)
+- LinkedIn: [Mark Rubanza Anderson](https://linkedin.com/in/Mark-Rubanza-Anderson)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +115,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Mobile Version]**
+- [ ] **[Connect with Spotify]**
+- [ ] **[Connect to an API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +127,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/banzaman/bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +137,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, please give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +147,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank the reviewers for taking their time to look through this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +155,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+ **What is this for?**
 
-- **[Question_1]**
+  - This is an app used to learn to send, receive data from an API, use API documentation, understand and use JSON and make JavaScript code asynchronous.
 
-  - [Answer_1]
+- **Can i copy this project?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Your welcome, copy this project and let me know if you need something.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +170,4 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
